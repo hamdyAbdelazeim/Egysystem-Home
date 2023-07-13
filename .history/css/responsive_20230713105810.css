@@ -37,7 +37,7 @@
     grid-template-columns: auto !important;
   }
   .service-item {
-    width: 100% !important;
+    width: 100%;
   }
 }
 
@@ -51,11 +51,5 @@
 @media only screen and (max-width: 280px) {
   .logo-img {
     width: 160px;
-  }
-  .services .service-up {
-    width: 270px;
-  }
-  .service-item p {
-    font-size: 12px;
   }
 }

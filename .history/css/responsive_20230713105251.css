@@ -1,10 +1,4 @@
-@media only screen and (max-width: 1400px) {
-  .service-down {
-    flex-direction: column;
-  }
-  .service-down-left {
-    width: 100% !important;
-  }
+@media only screen and (max-width: 1280px) {
 }
 @media only screen and (max-width: 1025px) {
   .cust-link {
@@ -32,13 +26,6 @@
   .statistics-down {
     width: 100%;
   }
-  /* services */
-  .service-down-left {
-    grid-template-columns: auto !important;
-  }
-  .service-item {
-    width: 100% !important;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -51,11 +38,5 @@
 @media only screen and (max-width: 280px) {
   .logo-img {
     width: 160px;
-  }
-  .services .service-up {
-    width: 270px;
-  }
-  .service-item p {
-    font-size: 12px;
   }
 }

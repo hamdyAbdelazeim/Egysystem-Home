@@ -151,11 +151,6 @@ body {
   padding: 1rem;
   margin-bottom: 1.5rem;
 }
-.service-down .service-down-left .service-item:hover {
-  background-color: var(--primary);
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in-out;
-}
 .service-down .service-down-left .service-item button {
   width: 108px;
   height: 44px;
@@ -171,11 +166,10 @@ body {
   margin-top: 1.5rem;
 }
 .service-down .service-down-left .service-item button:hover {
-  background-color: var(--secondary);
+  
+  background-color: var(--primary);
   border: 1px solid var(--third-party);
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in-out;
-  color: var(--primary);
+
 }
 
 .service-item-cust {

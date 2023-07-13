@@ -175,7 +175,7 @@ body {
   border: 1px solid var(--third-party);
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
-  color: var(--primary);
+  color: ;
 }
 
 .service-item-cust {
