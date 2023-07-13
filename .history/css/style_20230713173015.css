@@ -58,8 +58,8 @@ body {
 }
 .Home-img {
   width: 100%;
-  /* background-image: url('/assets/Ellipse\ 36.png'); */
-  /* background-repeat: no-repeat; */
+  background-image: url('/assets/Ellipse\ 36.png');
+  background-repeat: no-repeat;
 }
 .Egy {
   color: var(--primary);
@@ -195,5 +195,32 @@ body {
 }
 .owl-nav {
   position: absolute;
-  left: 47%;
+  left: 50%;
+}
+.owl-prev {
+  width: 36px !important;
+  height: 36px !important;
+  background-color: #ffffff !important;
+  color: var(--primary) !important;
+  box-shadow: 0px 2px 7px 0px #0000002b !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.owl-prev. span {
+  font-size: 25px;
+}
+.owl-next {
+  width: 36px !important;
+  height: 36px !important;
+  background-color: #ffffff !important;
+  color: var(--primary) !important;
+  box-shadow: 0px 2px 7px 0px #0000002b !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }

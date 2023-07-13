@@ -58,8 +58,8 @@ body {
 }
 .Home-img {
   width: 100%;
-  /* background-image: url('/assets/Ellipse\ 36.png'); */
-  /* background-repeat: no-repeat; */
+  background-image: url('/assets/Ellipse\ 36.png');
+  background-repeat: no-repeat;
 }
 .Egy {
   color: var(--primary);
@@ -193,7 +193,12 @@ body {
   width: 86px;
   border-bottom: 3px solid var(--primary);
 }
-.owl-nav {
+
+.owl-carousel,
+.owl-carousel .owl-item {
   position: absolute;
-  left: 47%;
+  left: 50%;
+}
+.owl-prev {
+  padding: 2rem !important;
 }
