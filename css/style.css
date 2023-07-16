@@ -3,6 +3,11 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+.under-line-cust {
+  border-bottom: 4px solid var(--primary);
+  width: 72px;
+  margin: auto;
+}
 
 :root {
   --primary: #30c0d0;
@@ -113,12 +118,12 @@ body {
 .services {
   width: 100%;
 }
-.services .service-up {
+.service-up {
   width: 332px;
   margin: auto;
   padding-bottom: 20px;
 }
-.services .service-up .p-up {
+.service-up .p-up {
   text-align: start;
   font-size: 16px;
   color: var(--primary);
@@ -128,7 +133,7 @@ body {
   color: var(--third-party);
   font-size: 32px;
 }
-.services .service-up .border-cust {
+.service-up .border-cust {
   width: 72px;
   margin: auto;
   border-bottom: 4px solid var(--primary);
@@ -193,7 +198,105 @@ body {
   width: 86px;
   border-bottom: 3px solid var(--primary);
 }
-.owl-nav {
+.Home .owl-nav {
   position: absolute;
   left: 47%;
+}
+
+/* solutions  */
+.solutions {
+  background-image: url('/assets/blobanimation.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.solution-item {
+  text-align: center;
+  width: 375px;
+  height: 413px;
+}
+.solution-btn {
+  border: none;
+  padding: 16px, 16px, 16px, 16px;
+  float: right;
+  background-color: white;
+}
+
+/* team */
+.Team {
+  background-color: rgba(48, 192, 208, 0.05);
+}
+.team-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team-item > p {
+  margin: 0;
+}
+.team-img {
+  width: 200px;
+  height: 200px;
+}
+.team-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.Team .team-slider .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Team .team-slider .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -50px;
+  text-align: center;
+}
+
+.Team .team-slider .owl-dots button {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 3px 0;
+  border-radius: 50%;
+  background-color: white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid var(--primary);
+  margin-left: 5px;
+}
+
+.Team .team-slider .owl-dots button.active {
+  background-color: var(--primary);
+  opacity: 1;
+}
+
+/* choose  */
+.choose {
+  margin-top: 6rem;
+}
+.choose-bottom {
+  height: 483px;
+}
+.choose-item-img {
+  width: 25px;
+  height: 25px;
+}
+.choose-item-img img {
+  width: 100%;
+  height: 100%;
 }
