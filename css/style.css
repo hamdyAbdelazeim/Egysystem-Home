@@ -13,6 +13,8 @@ body {
   --primary: #30c0d0;
   --secondary: #606060;
   --third-party: #131313;
+  --orange-cust: rgba(158, 67, 0, 1);
+  --green-cust: rgba(0, 55, 79, 1);
 }
 
 /* navbar  */
@@ -299,4 +301,103 @@ body {
 .choose-item-img img {
   width: 100%;
   height: 100%;
+}
+
+/* Loop */
+.loop {
+  background-color: var(--primary);
+  height: 324px;
+  /* margin-bottom: 4rem; */
+}
+.loop-middle {
+  width: 710px;
+  height: 207px;
+  color: #fff;
+}
+.loop-middle h2 {
+  font-size: 40px;
+}
+.loop-middle p {
+  font-size: 20px;
+}
+.loop-middle .loop-input {
+  width: 710px;
+  height: 75px;
+  background-color: #fff;
+}
+
+.loop-middle .loop-input input {
+  height: 100%;
+  width: 70%;
+  border: none;
+  outline: none;
+}
+.loop-middle .loop-input button {
+  height: 48px;
+  width: 151px;
+  background-color: rgba(172, 229, 236, 1);
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+
+/* Blogs  */
+.blogs {
+  height: 789px;
+}
+.blog-item {
+  width: 300px;
+  height: 400px;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  box-shadow: 0px 1.7679557800292969px 3.5359115600585938px 0px
+    rgba(0, 0, 0, 0.25);
+  padding: 5px;
+}
+.blog-item-img {
+  width: 100%;
+}
+.blog-item-img img {
+  width: 100%;
+  height: 100%;
+}
+.blog-item span {
+  color: var(--orange-cust);
+}
+.blog-item strong {
+  counter-reset: var(--green-cust);
+}
+.blog-item h5 {
+  color: var(--green-cust);
+}
+.blog-item p {
+  color: var(--green-cust);
+  width: 295px;
+}
+.blog-item-btn {
+  border: none;
+  float: right;
+  background-color: #fff;
+  color: var(--orange-cust);
+}
+
+.blogs-button {
+  width: 146px;
+  height: 56px;
+  padding: 0px 16px 0px 16px;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
 }
