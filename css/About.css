@@ -1,0 +1,78 @@
+/* setting my css roots  */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+.under-line-cust {
+  border-bottom: 4px solid var(--primary);
+  width: 72px;
+  margin: auto;
+}
+
+:root {
+  --primary: #30c0d0;
+  --secondary: #606060;
+  --third-party: #131313;
+  --orange-cust: rgba(158, 67, 0, 1);
+  --green-cust: rgba(0, 55, 79, 1);
+}
+
+/* about our company  */
+.about-our-company {
+  /* width: 1760px; */
+  height: 532.63px;
+  margin-top: 8rem;
+}
+.about-our-company-img {
+  width: 50%;
+  height: 532.63px;
+}
+.about-our-company-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-our-company-right {
+  width: 40%;
+}
+
+/* mission  */
+.mission {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.mission-up {
+  width: 100%;
+  height: 100%;
+}
+.mission-up img {
+  width: 100%;
+  height: 100%;
+}
+/* .mission-down {
+  position: relative;
+} */
+.mission-down span {
+  z-index: -1;
+  color: var(--secondary);
+  border: 3px solid var(--secondary);
+  padding: 1rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+}
+
+.mission-down-left {
+  display: flex;
+}
+
+.mission-down-left p {
+  width: 372px;
+  height: 75px;
+  background-color: #fff;
+  margin-left: 30px;
+  margin-top: 40px;
+}
