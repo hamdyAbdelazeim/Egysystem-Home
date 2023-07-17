@@ -5,6 +5,16 @@
   .service-down-left {
     width: 100% !important;
   }
+  .partners-right {
+    width: 55%;
+  }
+  .partners-left {
+    width: 40%;
+  }
+  .partners-right .partners-right-up .partners-item {
+    width: 140px;
+    height: 140px;
+  }
 }
 @media only screen and (max-width: 1025px) {
   .cust-link {
