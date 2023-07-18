@@ -10,7 +10,7 @@ body {
 }
 
 :root {
-  --primary: #30c0d0;
+  --primary: rgba(255, 140, 64, 1);
   --secondary: #606060;
   --third-party: #131313;
   --orange-cust: rgba(158, 67, 0, 1);
@@ -369,7 +369,7 @@ body {
   height: 100%;
 }
 .blog-item span {
-  color: var(--orange-cust);
+  color: var(--primary);
 }
 .blog-item strong {
   counter-reset: var(--green-cust);
@@ -385,7 +385,7 @@ body {
   border: none;
   float: right;
   background-color: #fff;
-  color: var(--orange-cust);
+  color: var(--primary);
 }
 
 .blogs-button {
@@ -505,7 +505,8 @@ body {
   -moz-border-radius: 25px 25px 0px 0px;
   -ms-border-radius: 25px 25px 0px 0px;
   -o-border-radius: 25px 25px 0px 0px;
-  background: rgba(217, 217, 217, 1);
+  background: rgba(0, 55, 79, 1);
+  color: rgba(255, 255, 255, 1);
   /* padding-top: 5px; */
 }
 .footer-header-left p {
@@ -565,12 +566,12 @@ body {
   height: 281px;
 }
 .footer-middle-right-item-header p {
-  width: 81px;
+  width: 55px;
   height: 3px;
   background: linear-gradient(
     270deg,
-    #30c0d0 -1.37%,
-    rgba(48, 192, 208, 0) 100.18%
+    #ff8c40 0%,
+    rgba(255, 140, 64, 0.08) 100%
   );
 }
 
@@ -615,7 +616,7 @@ body {
 }
 .footer-middle-right-item a {
   text-decoration: none !important;
-  color: var(--secondary) !important;
+  color: rgba(255, 255, 255, 1);
 }
 .footer-middle-right-item p {
   font-size: 13px;

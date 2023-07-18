@@ -10,10 +10,10 @@ body {
 }
 
 :root {
-  --primary: #30c0d0;
+  --primary: rgba(255, 140, 64, 1);
   --secondary: #606060;
   --third-party: #131313;
-  --orange-cust: rgba(158, 67, 0, 1);
+  --orange-cust: rgba(255, 140, 64, 1);
   --green-cust: rgba(0, 55, 79, 1);
 }
 
