@@ -18,6 +18,7 @@ body {
 }
 
 /* navbar  */
+
 .cust-ul {
   width: 100%;
   justify-content: space-around;
@@ -146,12 +147,12 @@ body {
   background-repeat: no-repeat;
   margin-bottom: 100px;
 }
-.service-down .service-down-left {
+.service-down-left {
   width: 60%;
   display: grid;
   grid-template-columns: auto auto;
 }
-.service-down .service-down-left .service-item {
+.service-down-left .service-item {
   width: 368px;
   height: 314px;
   background-color: #ffffff;
@@ -164,12 +165,12 @@ body {
   padding: 1rem;
   margin-bottom: 1.5rem;
 }
-.service-down .service-down-left .service-item:hover {
+.service-down-left .service-item:hover {
   background-color: var(--primary);
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
 }
-.service-down .service-down-left .service-item button {
+.service-down-left .service-item button {
   width: 108px;
   height: 44px;
   border: 1px solid var(--primary);
@@ -183,7 +184,7 @@ body {
   float: right;
   margin-top: 1.5rem;
 }
-.service-down .service-down-left .service-item button:hover {
+.service-down-left .service-item button:hover {
   background-color: var(--secondary);
   border: 1px solid var(--third-party);
   transition-duration: 0.3s;
@@ -309,6 +310,18 @@ body {
   height: 324px;
   /* margin-bottom: 4rem; */
 }
+.loop-left {
+  height: 424px;
+}
+.loop-left img {
+  height: 100%;
+}
+.loop-right {
+  height: 424px;
+}
+.loop-right img {
+  height: 100%;
+}
 .loop-middle {
   width: 710px;
   height: 207px;
@@ -335,7 +348,8 @@ body {
 .loop-middle .loop-input button {
   height: 48px;
   width: 151px;
-  background-color: rgba(172, 229, 236, 1);
+  background-color: var(--primary);
+  opacity: 50%;
   color: #fff;
   border: none;
   border-radius: 9px;
@@ -344,7 +358,14 @@ body {
   -ms-border-radius: 9px;
   -o-border-radius: 9px;
 }
-
+.loop-middle .loop-input button:hover {
+  opacity: 1;
+  transition: all 500ms;
+  -webkit-transition: all 1000ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+}
 /* Blogs  */
 .blogs {
   height: 789px;

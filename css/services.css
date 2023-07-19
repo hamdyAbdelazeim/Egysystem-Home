@@ -1,0 +1,92 @@
+/* services header */
+.services-header {
+  margin-top: 4rem;
+  background-image: url('/assets/services-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 670px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.services-header-box {
+  margin-bottom: 5rem;
+}
+.services-header-box h1 {
+  font-size: 70px;
+}
+.services-header-box p {
+  font-size: 20px;
+}
+
+/* explore-services */
+.explore-services {
+  margin-top: 5rem;
+  background-image: url('/assets/blobanimation.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service-page-item {
+  height: 450px !important;
+  width: 400px !important;
+}
+.service-page-item-img {
+  width: 98%;
+  height: 50%;
+}
+.service-page-item-img img {
+  width: 100%;
+  height: 100%;
+}
+.service-down-left .service-item button {
+  width: 126px;
+  background-color: #fff;
+}
+.service-page-item p {
+  font-size: 15px;
+}
+.service-page-item-cust {
+  margin-top: 5rem;
+}
+
+.services-line-cust {
+  width: 200px;
+}
+/* tocologies */
+.tocologies-line-cust {
+  width: 180px;
+  margin-bottom: 3rem;
+}
+.tech-down {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 10px;
+  row-gap: 50px;
+  column-gap: 90px;
+  /* border: 1px solid black; */
+}
+.tech-item {
+  width: 100px;
+  padding-right: 1rem;
+  border-right: 1px solid black;
+  text-align: center;
+}
+.tech-item-img {
+  width: 100%;
+  height: 70px;
+}
+.tech-item-img img {
+  width: 100%;
+  height: 100%;
+}
+.tech-item p {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+/* loop */
+.loop {
+  margin-top: 3rem;
+}
