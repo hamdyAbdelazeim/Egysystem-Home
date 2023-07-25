@@ -360,7 +360,7 @@
     width: 89%;
   }
 }
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 281px) {
   .logo-img {
     width: 160px;
   }
@@ -372,5 +372,17 @@
   }
   .team-slide {
     grid-template-columns: auto;
+  }
+  .solution-item {
+    height: 500px;
+  }
+  .footer-down {
+    margin-top: 15rem;
+  }
+  .footer-middle-right-item-header h4 {
+    font-size: 11px;
+  }
+  .footer-middle-right-item a {
+    font-size: 7px;
   }
 }
