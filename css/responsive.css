@@ -28,6 +28,9 @@
   }
 }
 @media only screen and (max-width: 1025px) {
+  .tech-down {
+    grid-template-columns: auto auto auto auto;
+  }
   h2 {
     font-size: 30px !important;
   }
@@ -183,9 +186,47 @@
   .input-container input {
     width: 100%;
   }
+  .tech-down {
+    grid-template-columns: auto auto auto;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+  .blogs-header-div {
+    margin: 0px;
+    text-align: center;
+  }
+  .service-page-item {
+    height: 505px !important;
+  }
+  .blogs-header-div p {
+    width: 100%;
+  }
+  .blogs-header-div h1 {
+    font-size: 40px;
+  }
+  .blogs-header-div p {
+    font-size: 17px;
+  }
+
+  .footer-down {
+    flex-direction: column;
+  }
+  .footer-down-p {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-down-middle {
+    width: 100%;
+  }
+  .footer-down-left {
+    width: 100% !important;
+    margin-top: 1rem;
+  }
+
+  .tech-down {
+    grid-template-columns: auto auto;
+  }
   .loop-middle {
     position: initial;
   }
@@ -244,6 +285,16 @@
   }
 }
 @media only screen and (max-width: 541px) {
+  .our-work {
+    /* margin-top: 60rem; */
+    height: auto;
+  }
+  .loop-img img {
+    display: none;
+  }
+  .team-slide {
+    grid-template-columns: auto auto;
+  }
   .solutions-bottom {
     grid-template-columns: auto;
   }
@@ -384,5 +435,18 @@
   }
   .footer-middle-right-item a {
     font-size: 7px;
+  }
+  .tech-down {
+    column-gap: 0;
+  }
+  .input-button {
+    flex-direction: column;
+  }
+  .input-button button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .loop-middle p {
+    font-weight: 8px !important;
   }
 }
